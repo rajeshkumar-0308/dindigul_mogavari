@@ -1113,6 +1113,7 @@ body{
     .portfolio-list .img-card {
         width: 100%;
         box-sizing: border-box;
+        background-size: cover;
     }
 
     .contact-btn .btn {
