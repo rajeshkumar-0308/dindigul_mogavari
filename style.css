@@ -861,19 +861,7 @@ body{
         border: 1px solid #852629;
         
     }
-    
-    #copy {
-        background-color: rgb(39,166,75);
-        border: 1px solid rgb(39,166,75);
-        
-    }
-    
-    #paste {
-        background-color: rgb(242,185,42);
-        border: 1px solid rgb(242,185,42);
-        
-    }
-    
+
     
     .button { 
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.09), 0 6px 15px 0 rgba(0, 0, 0, 0.09);
@@ -1434,6 +1422,7 @@ body{
             {
                 flex-direction: column;
                 font-size: 0.9rem;
+                overflow-x: hidden;
             }
             .contact .contact-left
             {
