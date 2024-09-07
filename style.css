@@ -1016,6 +1016,7 @@ body{
     visibility: hidden;
     opacity: 0;
     transition: .3s ease;
+    align-items: center ;
 }
 
 .portfolio-model.active
