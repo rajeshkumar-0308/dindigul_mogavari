@@ -119,6 +119,31 @@ body.addEventListener("click" , e =>{
 
 
 
+// Apply the reveal effect when the element comes into view
+const reveals = document.querySelectorAll('.reveal');
+
+const revealOnScroll = new IntersectionObserver((entries, observer) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('active');
+      observer.unobserve(entry.target); // Remove observer once the animation is done
+    }
+  });
+}, {
+  threshold: 0.5 // Adjust this value based on how early or late you want the animation to trigger
+});
+
+reveals.forEach(reveal => {
+  revealOnScroll.observe(reveal);
+});
+
+
+
+
+
+
+
+
 
 
 
