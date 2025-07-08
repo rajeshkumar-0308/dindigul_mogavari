@@ -1,1 +1,1 @@
-Preview Sites: https://rajeshkumar-0308.github.io/dindigul_mogavari/
+Preview Sites: https://dindigulmugavari.com/
